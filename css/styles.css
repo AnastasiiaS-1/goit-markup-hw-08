@@ -562,7 +562,7 @@ img {
 
 .gallery-item:hover .gallery-example-text,
 .gallery-item:focus .gallery-example-text {
-  transform: translateY(0);
+  transform: translateY(0%);
 }
 
 .gallery-item-text {
