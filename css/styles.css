@@ -548,7 +548,6 @@ img {
 .gallery-example-text {
   position: absolute;
   top: 0;
-  margin-top: 0;
   padding: 40px 32px;
   height: 100%;
   transform: translateY(100%);
@@ -561,8 +560,8 @@ img {
   background-color: var(--accent-color);
 }
 
-.gallery-item .gallery-example-text:hover,
-.gallery-item .gallery-example-text:focus {
+.gallery-item:hover .gallery-example-text,
+.gallery-item:focus .gallery-example-text {
   transform: translateY(0);
 }
 
