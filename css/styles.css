@@ -560,8 +560,8 @@ img {
   background-color: var(--accent-color);
 }
 
-.gallery-item:hover .gallery-example-text,
-.gallery-item:focus .gallery-example-text {
+.gallery-item-active:hover .gallery-example-text,
+.gallery-item-active:focus .gallery-example-text {
   transform: translateY(0%);
 }
 
